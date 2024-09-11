@@ -3,10 +3,8 @@ import { Footer } from '../components/footer';
 import { Header } from '../components/header';
 
 export const metadata = {
-    title: {
-        template: '%s | Netlify',
-        default: 'Netlify Starter'
-    }
+  title: "Create Next papa",
+  description: "Generated bu 2 min",
 };
 
 export default function RootLayout({ children }) {
