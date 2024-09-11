@@ -2,12 +2,21 @@ import '../styles/globals.css';
 import { Footer } from '../components/footer';
 import { Header } from '../components/header';
 
-export const metadata = {
-  title: "gapo gapi",
-  description: "haha Generated bu 2 min",
-};
+// export const metadata = {
+//   title: "gapo gapi",
+//   description: "haha Generated bu 2 min",
+// };
+export async function generateMetadata() {
 
-export default function RootLayout({ children }) {
+  return {
+    title: "site_name",
+    description: "site_description",
+    
+  };
+}
+
+export default async function RootLayout({ children }) {
+  const metadata = await generateMetadata();
     return (
         <html lang="en" data-theme="lofi">
             <head>
