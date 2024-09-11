@@ -9,22 +9,22 @@ import { Header } from '../components/header';
 export async function generateMetadata() {
 
   return {
-    title: "site_name",
-    description: "site_description",
+    title: "site_name1",
+    description: "site_description1",
     openGraph: {
-      title: "site_name",
-      description: "site_description",
+      title: "site_name2",
+      description: "site_description2",
    
     },
     twitter: {
     
-      title: "site_name",
-      description: "site_description",
+      title: "site_name3",
+      description: "site_description3",
     },
     skype: {
     
-      title: "site_name",
-      description: "site_description",
+      title: "site_name4",
+      description: "site_description4",
     },
   };
 }
