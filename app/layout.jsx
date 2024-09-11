@@ -12,7 +12,7 @@ export async function generateMetadata() {
     title: "site_name1",
     description: "site_description1",
     openGraph: {
-      title: "site_name2",
+      title: "site_name22",
       description: "site_description2",
    
     },
