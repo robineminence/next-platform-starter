@@ -16,6 +16,16 @@ export async function generateMetadata() {
       description: "site_description",
    
     },
+    twitter: {
+    
+      title: "site_name",
+      description: "site_description",
+    },
+    skype: {
+    
+      title: "site_name",
+      description: "site_description",
+    },
   };
 }
 
